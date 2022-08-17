@@ -1,0 +1,58 @@
+.section-center {
+    position: relative;
+    overflow: hidden;
+}
+
+.section-center article {
+    position: relative;
+    z-index: 2;
+}
+
+.section-center img {    
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.75;
+}
+
+h3 {
+    color: white;
+    font-size: 8rem;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 3px;;
+}
+
+h4 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.apocalypse {
+    color: black;
+    font-size: 4rem;
+    text-align: center;
+}
+
+p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.deadline {
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+    margin-bottom:100px;
+}
+
+.deadline-format {
+    background-color: rgb(148, 97, 84);
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20%;
+}
